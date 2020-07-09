@@ -1,4 +1,4 @@
 node_modules/
 obj/
 bin/
-.vscode/
+Breath_API/appsettings.json
