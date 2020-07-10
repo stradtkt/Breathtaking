@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { HomeViewComponent } from './home-view.component';
+import { CalendarEditComponent } from './calendar-edit.component';
 
-describe('HomeViewComponent', () => {
-  let component: HomeViewComponent;
-  let fixture: ComponentFixture<HomeViewComponent>;
+describe('CalendarEditComponent', () => {
+  let component: CalendarEditComponent;
+  let fixture: ComponentFixture<CalendarEditComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HomeViewComponent ]
+      declarations: [ CalendarEditComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HomeViewComponent);
+    fixture = TestBed.createComponent(CalendarEditComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

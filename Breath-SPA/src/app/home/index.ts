@@ -1,15 +1,15 @@
 
 import { AboutComponent } from './about/about.component';
-import { HomeViewComponent } from './home-view/home-view.component';
+import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 
 
 export const components: any[] = [
   AboutComponent,
-  HomeViewComponent,
+  HomeComponent,
   ContactComponent
 ];
 
 export * from './about/about.component';
-export * from './home-view/home-view.component';
+export * from './home/home.component';
 export * from './contact/contact.component';
